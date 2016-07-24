@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+bin/build
+ln -s $(pwd)/bin/yle-dl /usr/local/bin

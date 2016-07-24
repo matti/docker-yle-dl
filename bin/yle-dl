@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+docker run -it --rm -u $USER -v $(pwd):/home/$USER -w /home/$USER yle-dl yle-dl $1
